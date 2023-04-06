@@ -27,6 +27,7 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.webview.loadUrl("http://10.0.2.2:8091")
+
     }
 
 }
